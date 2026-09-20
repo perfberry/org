@@ -9,7 +9,7 @@ export const metadata = {
   description: "An ecosystem for visualizing performance testing reports",
 }
 
-export default function RootLayout({ children }: { children: any }) {
+export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
     <html lang="en" {...mantineHtmlProps}>
       <head>
